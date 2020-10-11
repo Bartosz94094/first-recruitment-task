@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <form action="thankyou.html" method="GET">
+        <p class="hello">witaj!</p>
+        <fieldset>
+            <legend>wypełnij formularz i zgarnij <span class="highlight">kupon rabatowy</span> do wykorzystania przy najbliższych zakupach</legend>
+            <div class="inputs-wrapper">
+                <input placeholder="email" type="email" required>
+                <input placeholder="imię" type="text" class="name" required>
+            </div>
+            <div class="agreement-wrapper">
+                <label class="checkbox-container">
+                    <input type="checkbox" required>
+                    <span class="checkmark"></span>
+                </label>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis rerum a laudantium tempora tenetur incidunt quaerat nobis qui. Cum, eum.</p>
+            </div>
+            <input type="submit" value="wyślij" class="submit">
+        </fieldset>
+    </form>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
